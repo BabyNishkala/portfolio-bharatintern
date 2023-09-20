@@ -124,10 +124,40 @@ h1{
     padding-top: 50px;
     padding-left: 600px;
     padding-bottom: 30px;
+    justify-content: center;
 }
 .insta{
     padding-left:80px ;
+    justify-content: right;
 }
 .git{
     padding-left: 80px;
+    justify-content: left;
+}
+input[type=text]{
+    width: 500px;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border:2px solid green;
+    border-radius: 4px;
+
+}
+input[type=email]{
+    width: 500px;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border:2px solid green;
+    border-radius: 4px;
+    
+}
+input[type=button]{
+    width: 500px;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border:2px solid green;
+    border-radius: 4px;
+    color: green ;
 }
